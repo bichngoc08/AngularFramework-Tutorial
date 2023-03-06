@@ -1,12 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, RoutingComponent } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CustomerComponent } from './customer/customer.component';
+import { ListCustomerComponent } from './list-customer/list-customer.component';
+import { GroupCustomerComponent } from './group-customer/group-customer.component';
+import { GroupCustomer2Component } from './group-customer2/group-customer2.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CustomerComponent,
+    ListCustomerComponent,
+    RoutingComponent,
+    GroupCustomerComponent,
+    GroupCustomer2Component
   ],
   imports: [
     BrowserModule,
